@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 100vh;
+    padding: 40px;
+  }
+  
+  .yoda-img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .game-box {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #ff0000;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .game-box h1 {
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .game-box p {
+    margin: 10px 0;
+  }
+  
+  input[type="number"] {
+    padding: 12px;
+    font-size: 1.1rem;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  #message {
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+  
+  #message.success {
+    color: #00bfff;
+  }
+  
+  #message.fail {
+    color: #ff4d4d;
+  }
+  

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devine l'âge de Yoda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-wrapper">
+    <img src="vieuxyoda.jpg" alt="Yoda" class="yoda-img">
+    <div class="game-box">
+      <h1>Quel âge a Yoda ?</h1>
+      <p>Entre 1 et 20 ans, tu dois deviner...</p>
+      <input type="number" id="guess" placeholder="Ton estimation">
+      <button onclick="checkGuess()">Deviner</button>
+      <p id="message"></p>
+      <p id="tries"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
